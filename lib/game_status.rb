@@ -48,11 +48,11 @@ def draw?(board)
     puts "returning false"
     return false
   end
-  if !full?(board)
-    puts "returning false"
-    return false
+  if full?(board)
+    puts "returning true"
+    return true
   end
-  true
+  false
 end
 
 def over?(board)
