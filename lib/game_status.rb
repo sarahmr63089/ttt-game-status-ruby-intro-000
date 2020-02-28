@@ -53,7 +53,7 @@ def over?(board)
   if draw?(board)
     return true
   end
-  false #otherwise false--what's interfering here?
+  false
 end
 
 def winner(board)
