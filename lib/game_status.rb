@@ -52,8 +52,6 @@ def draw?(board)
     puts "returning false"
     return false
   end
-  puts "draw returning true"
-  true
 end
 
 def over?(board)
