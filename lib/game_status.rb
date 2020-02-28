@@ -46,6 +46,7 @@ def draw?(board)
     puts "returning false"
     return false
   end
+  puts "returning true"
   true
 end
 
@@ -57,6 +58,7 @@ def over?(board)
   if draw?(board)
     return true
   end
+  puts "returning false"
   false #otherwise false--what's interfering here?
 end
 
