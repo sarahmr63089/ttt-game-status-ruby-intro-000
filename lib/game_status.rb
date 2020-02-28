@@ -30,7 +30,7 @@ def won?(board)
       return array
     end
   end
-  puts "returning false"
+  puts "1-returning false"
   false
 end
 
@@ -46,7 +46,7 @@ def draw?(board)
     puts "returning false"
     return false
   end
-  puts "returning true"
+  puts "draw returning true"
   true
 end
 
