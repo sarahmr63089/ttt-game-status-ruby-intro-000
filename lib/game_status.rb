@@ -53,12 +53,14 @@ end
 def over?(board)
   print "over?", board, "\n"
   if won?(board)
+    puts "won true"
     return true
   end
   if draw?(board)
+    puts "draw true"
     return true
   end
-  puts "returning false"
+  puts "over-returning false"
   false #otherwise false--what's interfering here?
 end
 
