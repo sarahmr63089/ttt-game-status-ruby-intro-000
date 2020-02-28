@@ -52,6 +52,7 @@ def draw?(board)
     puts "returning false"
     return false
   end
+  true
 end
 
 def over?(board)
