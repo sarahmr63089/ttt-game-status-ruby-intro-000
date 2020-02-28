@@ -44,7 +44,7 @@ def draw?(board)
 end
 
 def over?(board)
-  puts "over?", board
+  print "over?", board
   if won?(board)
     return true
   end
