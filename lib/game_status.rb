@@ -49,6 +49,7 @@ def draw?(board)
     return false
   end
   if !full?(board)
+    puts "returning false"
     return false
   end
   puts "draw returning true"
