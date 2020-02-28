@@ -60,6 +60,7 @@ def over?(board)
     puts "won true"
     return true
   end
+  print draw?(board)
   if draw?(board)
     puts "draw true"
     return true
